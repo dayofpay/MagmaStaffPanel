@@ -50,5 +50,10 @@ namespace MagmaStaffPanel
             this.Hide();
             checks.ShowDialog();
         }
+
+        private void MoreCheck_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

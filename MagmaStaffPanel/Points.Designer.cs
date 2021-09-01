@@ -40,9 +40,20 @@
             this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2GradientPanel1 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.guna2Button13 = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2Button12 = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2Button11 = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2Button10 = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2Button9 = new Guna.UI2.WinForms.Guna2Button();
             this.label8 = new System.Windows.Forms.Label();
             this.guna2GradientPanel5 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.guna2Button8 = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2Button7 = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2Button6 = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2Button5 = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2GradientPanel3 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2BorderlessForm2 = new Guna.UI2.WinForms.Guna2BorderlessForm(this.components);
             this.guna2GradientPanel15 = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.guna2GradientPanel2 = new Guna.UI2.WinForms.Guna2GradientPanel();
@@ -87,17 +98,6 @@
             this.label24 = new System.Windows.Forms.Label();
             this.label25 = new System.Windows.Forms.Label();
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2Button13 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button12 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button11 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button10 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button9 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button8 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button7 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button6 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button5 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2GradientPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -236,6 +236,136 @@
             this.guna2GradientPanel1.Size = new System.Drawing.Size(243, 648);
             this.guna2GradientPanel1.TabIndex = 78;
             // 
+            // guna2Button13
+            // 
+            this.guna2Button13.Animated = true;
+            this.guna2Button13.CheckedState.Parent = this.guna2Button13;
+            this.guna2Button13.CustomImages.Parent = this.guna2Button13;
+            this.guna2Button13.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button13.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button13.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button13.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button13.DisabledState.Parent = this.guna2Button13;
+            this.guna2Button13.FillColor = System.Drawing.Color.Red;
+            this.guna2Button13.FocusedColor = System.Drawing.Color.Yellow;
+            this.guna2Button13.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold);
+            this.guna2Button13.ForeColor = System.Drawing.Color.Yellow;
+            this.guna2Button13.HoverState.Parent = this.guna2Button13;
+            this.guna2Button13.Image = global::MagmaStaffPanel.Properties.Resources.изтеглен_файл__27_;
+            this.guna2Button13.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.guna2Button13.ImageSize = new System.Drawing.Size(40, 40);
+            this.guna2Button13.Location = new System.Drawing.Point(1, 495);
+            this.guna2Button13.Name = "guna2Button13";
+            this.guna2Button13.ShadowDecoration.Parent = this.guna2Button13;
+            this.guna2Button13.Size = new System.Drawing.Size(243, 48);
+            this.guna2Button13.TabIndex = 22;
+            this.guna2Button13.Text = "Backup Server";
+            this.guna2Button13.Click += new System.EventHandler(this.guna2Button13_Click);
+            // 
+            // guna2Button12
+            // 
+            this.guna2Button12.Animated = true;
+            this.guna2Button12.CheckedState.Parent = this.guna2Button12;
+            this.guna2Button12.CustomImages.Parent = this.guna2Button12;
+            this.guna2Button12.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button12.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button12.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button12.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button12.DisabledState.Parent = this.guna2Button12;
+            this.guna2Button12.FillColor = System.Drawing.Color.Red;
+            this.guna2Button12.FocusedColor = System.Drawing.Color.Yellow;
+            this.guna2Button12.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold);
+            this.guna2Button12.ForeColor = System.Drawing.Color.Yellow;
+            this.guna2Button12.HoverState.Parent = this.guna2Button12;
+            this.guna2Button12.Image = global::MagmaStaffPanel.Properties.Resources.изтеглен_файл__26_;
+            this.guna2Button12.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.guna2Button12.ImageSize = new System.Drawing.Size(40, 40);
+            this.guna2Button12.Location = new System.Drawing.Point(-1, 450);
+            this.guna2Button12.Name = "guna2Button12";
+            this.guna2Button12.ShadowDecoration.Parent = this.guna2Button12;
+            this.guna2Button12.Size = new System.Drawing.Size(243, 48);
+            this.guna2Button12.TabIndex = 21;
+            this.guna2Button12.Text = "Потребители";
+            this.guna2Button12.Click += new System.EventHandler(this.guna2Button12_Click);
+            // 
+            // guna2Button11
+            // 
+            this.guna2Button11.Animated = true;
+            this.guna2Button11.CheckedState.Parent = this.guna2Button11;
+            this.guna2Button11.CustomImages.Parent = this.guna2Button11;
+            this.guna2Button11.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button11.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button11.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button11.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button11.DisabledState.Parent = this.guna2Button11;
+            this.guna2Button11.FillColor = System.Drawing.Color.Red;
+            this.guna2Button11.FocusedColor = System.Drawing.Color.Yellow;
+            this.guna2Button11.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold);
+            this.guna2Button11.ForeColor = System.Drawing.Color.Yellow;
+            this.guna2Button11.HoverState.Parent = this.guna2Button11;
+            this.guna2Button11.Image = global::MagmaStaffPanel.Properties.Resources.изтеглен_файл__25_;
+            this.guna2Button11.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.guna2Button11.ImageSize = new System.Drawing.Size(40, 40);
+            this.guna2Button11.Location = new System.Drawing.Point(1, 409);
+            this.guna2Button11.Name = "guna2Button11";
+            this.guna2Button11.ShadowDecoration.Parent = this.guna2Button11;
+            this.guna2Button11.Size = new System.Drawing.Size(243, 48);
+            this.guna2Button11.TabIndex = 20;
+            this.guna2Button11.Text = "Activity Log";
+            this.guna2Button11.Click += new System.EventHandler(this.guna2Button11_Click);
+            // 
+            // guna2Button10
+            // 
+            this.guna2Button10.Animated = true;
+            this.guna2Button10.CheckedState.Parent = this.guna2Button10;
+            this.guna2Button10.CustomImages.Parent = this.guna2Button10;
+            this.guna2Button10.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button10.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button10.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button10.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button10.DisabledState.Parent = this.guna2Button10;
+            this.guna2Button10.FillColor = System.Drawing.Color.Red;
+            this.guna2Button10.FocusedColor = System.Drawing.Color.Yellow;
+            this.guna2Button10.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold);
+            this.guna2Button10.ForeColor = System.Drawing.Color.Yellow;
+            this.guna2Button10.HoverState.Parent = this.guna2Button10;
+            this.guna2Button10.Image = global::MagmaStaffPanel.Properties.Resources.изтеглен_файл__24_;
+            this.guna2Button10.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.guna2Button10.ImageSize = new System.Drawing.Size(40, 40);
+            this.guna2Button10.Location = new System.Drawing.Point(-1, 373);
+            this.guna2Button10.Name = "guna2Button10";
+            this.guna2Button10.ShadowDecoration.Parent = this.guna2Button10;
+            this.guna2Button10.Size = new System.Drawing.Size(243, 48);
+            this.guna2Button10.TabIndex = 19;
+            this.guna2Button10.Text = "Екип";
+            this.guna2Button10.Click += new System.EventHandler(this.guna2Button10_Click);
+            // 
+            // guna2Button9
+            // 
+            this.guna2Button9.Animated = true;
+            this.guna2Button9.CheckedState.Parent = this.guna2Button9;
+            this.guna2Button9.CustomImages.Parent = this.guna2Button9;
+            this.guna2Button9.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button9.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button9.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button9.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button9.DisabledState.Parent = this.guna2Button9;
+            this.guna2Button9.FillColor = System.Drawing.Color.Red;
+            this.guna2Button9.FocusedColor = System.Drawing.Color.Yellow;
+            this.guna2Button9.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold);
+            this.guna2Button9.ForeColor = System.Drawing.Color.Yellow;
+            this.guna2Button9.HoverState.Parent = this.guna2Button9;
+            this.guna2Button9.Image = global::MagmaStaffPanel.Properties.Resources.изтеглен_файл__23_1;
+            this.guna2Button9.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.guna2Button9.ImageSize = new System.Drawing.Size(40, 40);
+            this.guna2Button9.Location = new System.Drawing.Point(0, 325);
+            this.guna2Button9.Name = "guna2Button9";
+            this.guna2Button9.ShadowDecoration.Parent = this.guna2Button9;
+            this.guna2Button9.Size = new System.Drawing.Size(243, 48);
+            this.guna2Button9.TabIndex = 18;
+            this.guna2Button9.Text = "Конзола";
+            this.guna2Button9.Click += new System.EventHandler(this.guna2Button9_Click);
+            // 
             // label8
             // 
             this.label8.AutoSize = true;
@@ -258,6 +388,135 @@
             this.guna2GradientPanel5.Size = new System.Drawing.Size(244, 3);
             this.guna2GradientPanel5.TabIndex = 14;
             // 
+            // guna2Button8
+            // 
+            this.guna2Button8.Animated = true;
+            this.guna2Button8.CheckedState.Parent = this.guna2Button8;
+            this.guna2Button8.CustomBorderColor = System.Drawing.Color.Blue;
+            this.guna2Button8.CustomImages.Parent = this.guna2Button8;
+            this.guna2Button8.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button8.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button8.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button8.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button8.DisabledState.Parent = this.guna2Button8;
+            this.guna2Button8.FillColor = System.Drawing.Color.Blue;
+            this.guna2Button8.FocusedColor = System.Drawing.Color.Yellow;
+            this.guna2Button8.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold);
+            this.guna2Button8.ForeColor = System.Drawing.Color.White;
+            this.guna2Button8.HoverState.Parent = this.guna2Button8;
+            this.guna2Button8.Image = global::MagmaStaffPanel.Properties.Resources.изтеглен_файл__22_;
+            this.guna2Button8.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.guna2Button8.ImageSize = new System.Drawing.Size(40, 40);
+            this.guna2Button8.Location = new System.Drawing.Point(-3, 242);
+            this.guna2Button8.Name = "guna2Button8";
+            this.guna2Button8.ShadowDecoration.Parent = this.guna2Button8;
+            this.guna2Button8.Size = new System.Drawing.Size(243, 48);
+            this.guna2Button8.TabIndex = 16;
+            this.guna2Button8.Text = "Проверки ";
+            this.guna2Button8.Click += new System.EventHandler(this.guna2Button8_Click);
+            // 
+            // guna2Button7
+            // 
+            this.guna2Button7.Animated = true;
+            this.guna2Button7.CheckedState.Parent = this.guna2Button7;
+            this.guna2Button7.CustomImages.Parent = this.guna2Button7;
+            this.guna2Button7.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button7.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button7.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button7.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button7.DisabledState.Parent = this.guna2Button7;
+            this.guna2Button7.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold);
+            this.guna2Button7.ForeColor = System.Drawing.Color.White;
+            this.guna2Button7.HoverState.Parent = this.guna2Button7;
+            this.guna2Button7.Image = global::MagmaStaffPanel.Properties.Resources.изтеглен_файл__21_;
+            this.guna2Button7.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.guna2Button7.ImageSize = new System.Drawing.Size(40, 40);
+            this.guna2Button7.Location = new System.Drawing.Point(-3, 203);
+            this.guna2Button7.Name = "guna2Button7";
+            this.guna2Button7.ShadowDecoration.Parent = this.guna2Button7;
+            this.guna2Button7.Size = new System.Drawing.Size(243, 45);
+            this.guna2Button7.TabIndex = 15;
+            this.guna2Button7.Text = "Играчи";
+            this.guna2Button7.Click += new System.EventHandler(this.guna2Button7_Click);
+            // 
+            // guna2Button6
+            // 
+            this.guna2Button6.Animated = true;
+            this.guna2Button6.CheckedState.Parent = this.guna2Button6;
+            this.guna2Button6.CustomBorderColor = System.Drawing.Color.Red;
+            this.guna2Button6.CustomImages.Parent = this.guna2Button6;
+            this.guna2Button6.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button6.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button6.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button6.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button6.DisabledState.Parent = this.guna2Button6;
+            this.guna2Button6.FillColor = System.Drawing.Color.Red;
+            this.guna2Button6.FocusedColor = System.Drawing.Color.Yellow;
+            this.guna2Button6.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold);
+            this.guna2Button6.ForeColor = System.Drawing.Color.White;
+            this.guna2Button6.HoverState.Parent = this.guna2Button6;
+            this.guna2Button6.Image = global::MagmaStaffPanel.Properties.Resources.изтеглен_файл__20_;
+            this.guna2Button6.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.guna2Button6.ImageSize = new System.Drawing.Size(40, 40);
+            this.guna2Button6.Location = new System.Drawing.Point(-3, 158);
+            this.guna2Button6.Name = "guna2Button6";
+            this.guna2Button6.ShadowDecoration.Parent = this.guna2Button6;
+            this.guna2Button6.Size = new System.Drawing.Size(243, 48);
+            this.guna2Button6.TabIndex = 14;
+            this.guna2Button6.Text = "Събрания";
+            this.guna2Button6.Click += new System.EventHandler(this.guna2Button6_Click);
+            // 
+            // guna2Button5
+            // 
+            this.guna2Button5.Animated = true;
+            this.guna2Button5.CheckedState.Parent = this.guna2Button5;
+            this.guna2Button5.CustomImages.Parent = this.guna2Button5;
+            this.guna2Button5.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button5.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button5.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button5.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button5.DisabledState.Parent = this.guna2Button5;
+            this.guna2Button5.FillColor = System.Drawing.Color.Blue;
+            this.guna2Button5.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold);
+            this.guna2Button5.ForeColor = System.Drawing.Color.White;
+            this.guna2Button5.HoverState.Parent = this.guna2Button5;
+            this.guna2Button5.Image = global::MagmaStaffPanel.Properties.Resources.изтеглен_файл__18_;
+            this.guna2Button5.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.guna2Button5.ImageSize = new System.Drawing.Size(40, 40);
+            this.guna2Button5.Location = new System.Drawing.Point(-3, 105);
+            this.guna2Button5.Name = "guna2Button5";
+            this.guna2Button5.ShadowDecoration.Parent = this.guna2Button5;
+            this.guna2Button5.Size = new System.Drawing.Size(243, 58);
+            this.guna2Button5.TabIndex = 13;
+            this.guna2Button5.Text = "Заявки чакащи отговор";
+            this.guna2Button5.Click += new System.EventHandler(this.guna2Button5_Click);
+            // 
+            // guna2Button4
+            // 
+            this.guna2Button4.Animated = true;
+            this.guna2Button4.CheckedState.Parent = this.guna2Button4;
+            this.guna2Button4.CustomImages.Parent = this.guna2Button4;
+            this.guna2Button4.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button4.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button4.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button4.DisabledState.Parent = this.guna2Button4;
+            this.guna2Button4.FillColor = System.Drawing.Color.Red;
+            this.guna2Button4.FocusedColor = System.Drawing.Color.Yellow;
+            this.guna2Button4.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold);
+            this.guna2Button4.ForeColor = System.Drawing.Color.White;
+            this.guna2Button4.HoverState.Parent = this.guna2Button4;
+            this.guna2Button4.Image = global::MagmaStaffPanel.Properties.Resources.изтеглен_файл__14_;
+            this.guna2Button4.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.guna2Button4.ImageSize = new System.Drawing.Size(40, 40);
+            this.guna2Button4.Location = new System.Drawing.Point(-3, 60);
+            this.guna2Button4.Name = "guna2Button4";
+            this.guna2Button4.ShadowDecoration.Parent = this.guna2Button4;
+            this.guna2Button4.Size = new System.Drawing.Size(243, 48);
+            this.guna2Button4.TabIndex = 12;
+            this.guna2Button4.Text = "Точки";
+            this.guna2Button4.Click += new System.EventHandler(this.guna2Button4_Click);
+            // 
             // guna2GradientPanel3
             // 
             this.guna2GradientPanel3.FillColor = System.Drawing.Color.Red;
@@ -267,6 +526,31 @@
             this.guna2GradientPanel3.ShadowDecoration.Parent = this.guna2GradientPanel3;
             this.guna2GradientPanel3.Size = new System.Drawing.Size(812, 10);
             this.guna2GradientPanel3.TabIndex = 11;
+            // 
+            // guna2Button1
+            // 
+            this.guna2Button1.Animated = true;
+            this.guna2Button1.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
+            this.guna2Button1.CheckedState.Parent = this.guna2Button1;
+            this.guna2Button1.CustomImages.Parent = this.guna2Button1;
+            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button1.DisabledState.Parent = this.guna2Button1;
+            this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold);
+            this.guna2Button1.ForeColor = System.Drawing.Color.White;
+            this.guna2Button1.HoverState.Parent = this.guna2Button1;
+            this.guna2Button1.Image = global::MagmaStaffPanel.Properties.Resources.изтеглен_файл__15_;
+            this.guna2Button1.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.guna2Button1.ImageSize = new System.Drawing.Size(40, 40);
+            this.guna2Button1.Location = new System.Drawing.Point(-3, 9);
+            this.guna2Button1.Name = "guna2Button1";
+            this.guna2Button1.ShadowDecoration.Parent = this.guna2Button1;
+            this.guna2Button1.Size = new System.Drawing.Size(243, 45);
+            this.guna2Button1.TabIndex = 0;
+            this.guna2Button1.Text = "Вашите логове";
+            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
             // guna2BorderlessForm2
             // 
@@ -739,290 +1023,6 @@
             this.guna2PictureBox1.Size = new System.Drawing.Size(476, 463);
             this.guna2PictureBox1.TabIndex = 81;
             this.guna2PictureBox1.TabStop = false;
-            // 
-            // guna2Button13
-            // 
-            this.guna2Button13.Animated = true;
-            this.guna2Button13.CheckedState.Parent = this.guna2Button13;
-            this.guna2Button13.CustomImages.Parent = this.guna2Button13;
-            this.guna2Button13.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button13.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button13.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button13.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button13.DisabledState.Parent = this.guna2Button13;
-            this.guna2Button13.FillColor = System.Drawing.Color.Red;
-            this.guna2Button13.FocusedColor = System.Drawing.Color.Yellow;
-            this.guna2Button13.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold);
-            this.guna2Button13.ForeColor = System.Drawing.Color.Yellow;
-            this.guna2Button13.HoverState.Parent = this.guna2Button13;
-            this.guna2Button13.Image = global::MagmaStaffPanel.Properties.Resources.изтеглен_файл__27_;
-            this.guna2Button13.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.guna2Button13.ImageSize = new System.Drawing.Size(40, 40);
-            this.guna2Button13.Location = new System.Drawing.Point(1, 495);
-            this.guna2Button13.Name = "guna2Button13";
-            this.guna2Button13.ShadowDecoration.Parent = this.guna2Button13;
-            this.guna2Button13.Size = new System.Drawing.Size(243, 48);
-            this.guna2Button13.TabIndex = 22;
-            this.guna2Button13.Text = "Backup Server";
-            this.guna2Button13.Click += new System.EventHandler(this.guna2Button13_Click);
-            // 
-            // guna2Button12
-            // 
-            this.guna2Button12.Animated = true;
-            this.guna2Button12.CheckedState.Parent = this.guna2Button12;
-            this.guna2Button12.CustomImages.Parent = this.guna2Button12;
-            this.guna2Button12.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button12.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button12.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button12.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button12.DisabledState.Parent = this.guna2Button12;
-            this.guna2Button12.FillColor = System.Drawing.Color.Red;
-            this.guna2Button12.FocusedColor = System.Drawing.Color.Yellow;
-            this.guna2Button12.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold);
-            this.guna2Button12.ForeColor = System.Drawing.Color.Yellow;
-            this.guna2Button12.HoverState.Parent = this.guna2Button12;
-            this.guna2Button12.Image = global::MagmaStaffPanel.Properties.Resources.изтеглен_файл__26_;
-            this.guna2Button12.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.guna2Button12.ImageSize = new System.Drawing.Size(40, 40);
-            this.guna2Button12.Location = new System.Drawing.Point(-1, 450);
-            this.guna2Button12.Name = "guna2Button12";
-            this.guna2Button12.ShadowDecoration.Parent = this.guna2Button12;
-            this.guna2Button12.Size = new System.Drawing.Size(243, 48);
-            this.guna2Button12.TabIndex = 21;
-            this.guna2Button12.Text = "Потребители";
-            this.guna2Button12.Click += new System.EventHandler(this.guna2Button12_Click);
-            // 
-            // guna2Button11
-            // 
-            this.guna2Button11.Animated = true;
-            this.guna2Button11.CheckedState.Parent = this.guna2Button11;
-            this.guna2Button11.CustomImages.Parent = this.guna2Button11;
-            this.guna2Button11.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button11.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button11.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button11.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button11.DisabledState.Parent = this.guna2Button11;
-            this.guna2Button11.FillColor = System.Drawing.Color.Red;
-            this.guna2Button11.FocusedColor = System.Drawing.Color.Yellow;
-            this.guna2Button11.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold);
-            this.guna2Button11.ForeColor = System.Drawing.Color.Yellow;
-            this.guna2Button11.HoverState.Parent = this.guna2Button11;
-            this.guna2Button11.Image = global::MagmaStaffPanel.Properties.Resources.изтеглен_файл__25_;
-            this.guna2Button11.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.guna2Button11.ImageSize = new System.Drawing.Size(40, 40);
-            this.guna2Button11.Location = new System.Drawing.Point(1, 409);
-            this.guna2Button11.Name = "guna2Button11";
-            this.guna2Button11.ShadowDecoration.Parent = this.guna2Button11;
-            this.guna2Button11.Size = new System.Drawing.Size(243, 48);
-            this.guna2Button11.TabIndex = 20;
-            this.guna2Button11.Text = "Activity Log";
-            this.guna2Button11.Click += new System.EventHandler(this.guna2Button11_Click);
-            // 
-            // guna2Button10
-            // 
-            this.guna2Button10.Animated = true;
-            this.guna2Button10.CheckedState.Parent = this.guna2Button10;
-            this.guna2Button10.CustomImages.Parent = this.guna2Button10;
-            this.guna2Button10.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button10.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button10.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button10.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button10.DisabledState.Parent = this.guna2Button10;
-            this.guna2Button10.FillColor = System.Drawing.Color.Red;
-            this.guna2Button10.FocusedColor = System.Drawing.Color.Yellow;
-            this.guna2Button10.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold);
-            this.guna2Button10.ForeColor = System.Drawing.Color.Yellow;
-            this.guna2Button10.HoverState.Parent = this.guna2Button10;
-            this.guna2Button10.Image = global::MagmaStaffPanel.Properties.Resources.изтеглен_файл__24_;
-            this.guna2Button10.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.guna2Button10.ImageSize = new System.Drawing.Size(40, 40);
-            this.guna2Button10.Location = new System.Drawing.Point(-1, 373);
-            this.guna2Button10.Name = "guna2Button10";
-            this.guna2Button10.ShadowDecoration.Parent = this.guna2Button10;
-            this.guna2Button10.Size = new System.Drawing.Size(243, 48);
-            this.guna2Button10.TabIndex = 19;
-            this.guna2Button10.Text = "Екип";
-            this.guna2Button10.Click += new System.EventHandler(this.guna2Button10_Click);
-            // 
-            // guna2Button9
-            // 
-            this.guna2Button9.Animated = true;
-            this.guna2Button9.CheckedState.Parent = this.guna2Button9;
-            this.guna2Button9.CustomImages.Parent = this.guna2Button9;
-            this.guna2Button9.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button9.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button9.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button9.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button9.DisabledState.Parent = this.guna2Button9;
-            this.guna2Button9.FillColor = System.Drawing.Color.Red;
-            this.guna2Button9.FocusedColor = System.Drawing.Color.Yellow;
-            this.guna2Button9.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold);
-            this.guna2Button9.ForeColor = System.Drawing.Color.Yellow;
-            this.guna2Button9.HoverState.Parent = this.guna2Button9;
-            this.guna2Button9.Image = global::MagmaStaffPanel.Properties.Resources.изтеглен_файл__23_1;
-            this.guna2Button9.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.guna2Button9.ImageSize = new System.Drawing.Size(40, 40);
-            this.guna2Button9.Location = new System.Drawing.Point(0, 325);
-            this.guna2Button9.Name = "guna2Button9";
-            this.guna2Button9.ShadowDecoration.Parent = this.guna2Button9;
-            this.guna2Button9.Size = new System.Drawing.Size(243, 48);
-            this.guna2Button9.TabIndex = 18;
-            this.guna2Button9.Text = "Конзола";
-            this.guna2Button9.Click += new System.EventHandler(this.guna2Button9_Click);
-            // 
-            // guna2Button8
-            // 
-            this.guna2Button8.Animated = true;
-            this.guna2Button8.CheckedState.Parent = this.guna2Button8;
-            this.guna2Button8.CustomBorderColor = System.Drawing.Color.Blue;
-            this.guna2Button8.CustomImages.Parent = this.guna2Button8;
-            this.guna2Button8.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button8.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button8.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button8.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button8.DisabledState.Parent = this.guna2Button8;
-            this.guna2Button8.FillColor = System.Drawing.Color.Blue;
-            this.guna2Button8.FocusedColor = System.Drawing.Color.Yellow;
-            this.guna2Button8.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold);
-            this.guna2Button8.ForeColor = System.Drawing.Color.White;
-            this.guna2Button8.HoverState.Parent = this.guna2Button8;
-            this.guna2Button8.Image = global::MagmaStaffPanel.Properties.Resources.изтеглен_файл__22_;
-            this.guna2Button8.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.guna2Button8.ImageSize = new System.Drawing.Size(40, 40);
-            this.guna2Button8.Location = new System.Drawing.Point(-3, 242);
-            this.guna2Button8.Name = "guna2Button8";
-            this.guna2Button8.ShadowDecoration.Parent = this.guna2Button8;
-            this.guna2Button8.Size = new System.Drawing.Size(243, 48);
-            this.guna2Button8.TabIndex = 16;
-            this.guna2Button8.Text = "Проверки ";
-            this.guna2Button8.Click += new System.EventHandler(this.guna2Button8_Click);
-            // 
-            // guna2Button7
-            // 
-            this.guna2Button7.Animated = true;
-            this.guna2Button7.CheckedState.Parent = this.guna2Button7;
-            this.guna2Button7.CustomImages.Parent = this.guna2Button7;
-            this.guna2Button7.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button7.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button7.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button7.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button7.DisabledState.Parent = this.guna2Button7;
-            this.guna2Button7.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold);
-            this.guna2Button7.ForeColor = System.Drawing.Color.White;
-            this.guna2Button7.HoverState.Parent = this.guna2Button7;
-            this.guna2Button7.Image = global::MagmaStaffPanel.Properties.Resources.изтеглен_файл__21_;
-            this.guna2Button7.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.guna2Button7.ImageSize = new System.Drawing.Size(40, 40);
-            this.guna2Button7.Location = new System.Drawing.Point(-3, 203);
-            this.guna2Button7.Name = "guna2Button7";
-            this.guna2Button7.ShadowDecoration.Parent = this.guna2Button7;
-            this.guna2Button7.Size = new System.Drawing.Size(243, 45);
-            this.guna2Button7.TabIndex = 15;
-            this.guna2Button7.Text = "Репутация";
-            this.guna2Button7.Click += new System.EventHandler(this.guna2Button7_Click);
-            // 
-            // guna2Button6
-            // 
-            this.guna2Button6.Animated = true;
-            this.guna2Button6.CheckedState.Parent = this.guna2Button6;
-            this.guna2Button6.CustomBorderColor = System.Drawing.Color.Red;
-            this.guna2Button6.CustomImages.Parent = this.guna2Button6;
-            this.guna2Button6.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button6.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button6.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button6.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button6.DisabledState.Parent = this.guna2Button6;
-            this.guna2Button6.FillColor = System.Drawing.Color.Red;
-            this.guna2Button6.FocusedColor = System.Drawing.Color.Yellow;
-            this.guna2Button6.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold);
-            this.guna2Button6.ForeColor = System.Drawing.Color.White;
-            this.guna2Button6.HoverState.Parent = this.guna2Button6;
-            this.guna2Button6.Image = global::MagmaStaffPanel.Properties.Resources.изтеглен_файл__20_;
-            this.guna2Button6.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.guna2Button6.ImageSize = new System.Drawing.Size(40, 40);
-            this.guna2Button6.Location = new System.Drawing.Point(-3, 158);
-            this.guna2Button6.Name = "guna2Button6";
-            this.guna2Button6.ShadowDecoration.Parent = this.guna2Button6;
-            this.guna2Button6.Size = new System.Drawing.Size(243, 48);
-            this.guna2Button6.TabIndex = 14;
-            this.guna2Button6.Text = "Събрания";
-            this.guna2Button6.Click += new System.EventHandler(this.guna2Button6_Click);
-            // 
-            // guna2Button5
-            // 
-            this.guna2Button5.Animated = true;
-            this.guna2Button5.CheckedState.Parent = this.guna2Button5;
-            this.guna2Button5.CustomImages.Parent = this.guna2Button5;
-            this.guna2Button5.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button5.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button5.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button5.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button5.DisabledState.Parent = this.guna2Button5;
-            this.guna2Button5.FillColor = System.Drawing.Color.Blue;
-            this.guna2Button5.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold);
-            this.guna2Button5.ForeColor = System.Drawing.Color.White;
-            this.guna2Button5.HoverState.Parent = this.guna2Button5;
-            this.guna2Button5.Image = global::MagmaStaffPanel.Properties.Resources.изтеглен_файл__18_;
-            this.guna2Button5.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.guna2Button5.ImageSize = new System.Drawing.Size(40, 40);
-            this.guna2Button5.Location = new System.Drawing.Point(-3, 105);
-            this.guna2Button5.Name = "guna2Button5";
-            this.guna2Button5.ShadowDecoration.Parent = this.guna2Button5;
-            this.guna2Button5.Size = new System.Drawing.Size(243, 58);
-            this.guna2Button5.TabIndex = 13;
-            this.guna2Button5.Text = "Заявки чакащи отговор";
-            this.guna2Button5.Click += new System.EventHandler(this.guna2Button5_Click);
-            // 
-            // guna2Button4
-            // 
-            this.guna2Button4.Animated = true;
-            this.guna2Button4.CheckedState.Parent = this.guna2Button4;
-            this.guna2Button4.CustomImages.Parent = this.guna2Button4;
-            this.guna2Button4.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button4.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button4.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button4.DisabledState.Parent = this.guna2Button4;
-            this.guna2Button4.FillColor = System.Drawing.Color.Red;
-            this.guna2Button4.FocusedColor = System.Drawing.Color.Yellow;
-            this.guna2Button4.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold);
-            this.guna2Button4.ForeColor = System.Drawing.Color.White;
-            this.guna2Button4.HoverState.Parent = this.guna2Button4;
-            this.guna2Button4.Image = global::MagmaStaffPanel.Properties.Resources.изтеглен_файл__14_;
-            this.guna2Button4.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.guna2Button4.ImageSize = new System.Drawing.Size(40, 40);
-            this.guna2Button4.Location = new System.Drawing.Point(-3, 60);
-            this.guna2Button4.Name = "guna2Button4";
-            this.guna2Button4.ShadowDecoration.Parent = this.guna2Button4;
-            this.guna2Button4.Size = new System.Drawing.Size(243, 48);
-            this.guna2Button4.TabIndex = 12;
-            this.guna2Button4.Text = "Точки";
-            this.guna2Button4.Click += new System.EventHandler(this.guna2Button4_Click);
-            // 
-            // guna2Button1
-            // 
-            this.guna2Button1.Animated = true;
-            this.guna2Button1.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
-            this.guna2Button1.CheckedState.Parent = this.guna2Button1;
-            this.guna2Button1.CustomImages.Parent = this.guna2Button1;
-            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button1.DisabledState.Parent = this.guna2Button1;
-            this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold);
-            this.guna2Button1.ForeColor = System.Drawing.Color.White;
-            this.guna2Button1.HoverState.Parent = this.guna2Button1;
-            this.guna2Button1.Image = global::MagmaStaffPanel.Properties.Resources.изтеглен_файл__15_;
-            this.guna2Button1.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.guna2Button1.ImageSize = new System.Drawing.Size(40, 40);
-            this.guna2Button1.Location = new System.Drawing.Point(-3, 9);
-            this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.ShadowDecoration.Parent = this.guna2Button1;
-            this.guna2Button1.Size = new System.Drawing.Size(243, 45);
-            this.guna2Button1.TabIndex = 0;
-            this.guna2Button1.Text = "Вашите логове";
-            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
             // Points
             // 

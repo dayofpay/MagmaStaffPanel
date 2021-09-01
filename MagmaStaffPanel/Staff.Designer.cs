@@ -378,7 +378,8 @@
             this.guna2Button7.ShadowDecoration.Parent = this.guna2Button7;
             this.guna2Button7.Size = new System.Drawing.Size(243, 45);
             this.guna2Button7.TabIndex = 15;
-            this.guna2Button7.Text = "Репутация";
+            this.guna2Button7.Text = "Играчи";
+            this.guna2Button7.Click += new System.EventHandler(this.guna2Button7_Click);
             // 
             // guna2Button6
             // 

@@ -126,6 +126,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "MoreCheck";
             this.Text = "MoreCheck";
+            this.Load += new System.EventHandler(this.MoreCheck_Load);
             this.ResumeLayout(false);
 
         }

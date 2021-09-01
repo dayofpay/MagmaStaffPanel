@@ -26,10 +26,10 @@ namespace MagmaStaffPanel
         {
             InitializeComponent();
             connection = new MySqlConnection(conString);
-            server = "87.121.82.37";
-            database = "s500_magmacraft";
-            user = "u500_E3lmPout6J";
-            password = "6!+pFAoS0ZEi89upi9TIMPCO";
+            server = "87.121.82.44";
+            database = "s3_magmacraft";
+            user = "u3_5W42Pp7Wu2";
+            password = "ToCWgAQGAy=7zy4zRdLIbQp.";
             port = "3306";
             sslM = "none";
             connectionString = String.Format("server={0};port={1};user id={2}; password={3}; database={4}; SslMode={5}", server, port, user, password, database, sslM);
@@ -169,7 +169,9 @@ namespace MagmaStaffPanel
         {
             if (DefaultUI.log_status == "true")
             {
-
+                playersHistory playersHistory = new playersHistory();
+                this.Hide();
+                playersHistory.ShowDialog();
             }
             else
             {

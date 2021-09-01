@@ -38,6 +38,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label25 = new System.Windows.Forms.Label();
             this.userBox = new Guna.UI2.WinForms.Guna2TextBox();
+            this.guna2ControlBox1 = new Guna.UI2.WinForms.Guna2ControlBox();
             this.SuspendLayout();
             // 
             // guna2BorderlessForm1
@@ -102,7 +103,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Constantia", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
-            this.label2.ForeColor = System.Drawing.Color.Red;
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(179)))), ((int)(((byte)(166)))), ((int)(((byte)(166)))));
             this.label2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.label2.Location = new System.Drawing.Point(12, 103);
             this.label2.Name = "label2";
@@ -124,7 +125,7 @@
             this.pointBox.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.pointBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.pointBox.HoverState.Parent = this.pointBox;
-            this.pointBox.Location = new System.Drawing.Point(330, 52);
+            this.pointBox.Location = new System.Drawing.Point(292, 52);
             this.pointBox.Name = "pointBox";
             this.pointBox.PasswordChar = '\0';
             this.pointBox.PlaceholderText = "";
@@ -137,7 +138,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Constantia", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
-            this.label1.ForeColor = System.Drawing.Color.Red;
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(179)))), ((int)(((byte)(166)))), ((int)(((byte)(166)))));
             this.label1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.label1.Location = new System.Drawing.Point(12, 52);
             this.label1.Name = "label1";
@@ -149,7 +150,7 @@
             // 
             this.label25.AutoSize = true;
             this.label25.Font = new System.Drawing.Font("Constantia", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
-            this.label25.ForeColor = System.Drawing.Color.Red;
+            this.label25.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(179)))), ((int)(((byte)(166)))), ((int)(((byte)(166)))));
             this.label25.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.label25.Location = new System.Drawing.Point(12, 8);
             this.label25.Name = "label25";
@@ -180,12 +181,25 @@
             this.userBox.Size = new System.Drawing.Size(200, 18);
             this.userBox.TabIndex = 162;
             // 
+            // guna2ControlBox1
+            // 
+            this.guna2ControlBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.guna2ControlBox1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(139)))), ((int)(((byte)(152)))), ((int)(((byte)(166)))));
+            this.guna2ControlBox1.HoverState.Parent = this.guna2ControlBox1;
+            this.guna2ControlBox1.IconColor = System.Drawing.Color.White;
+            this.guna2ControlBox1.Location = new System.Drawing.Point(752, -3);
+            this.guna2ControlBox1.Name = "guna2ControlBox1";
+            this.guna2ControlBox1.ShadowDecoration.Parent = this.guna2ControlBox1;
+            this.guna2ControlBox1.Size = new System.Drawing.Size(45, 29);
+            this.guna2ControlBox1.TabIndex = 170;
+            // 
             // addPoints
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Aqua;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(120)))), ((int)(((byte)(120)))));
             this.ClientSize = new System.Drawing.Size(800, 265);
+            this.Controls.Add(this.guna2ControlBox1);
             this.Controls.Add(this.statusBox);
             this.Controls.Add(this.continueButton);
             this.Controls.Add(this.reasonBox);
@@ -214,5 +228,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label25;
         private Guna.UI2.WinForms.Guna2TextBox userBox;
+        private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox1;
     }
 }

@@ -107,6 +107,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "pinRequire";
             this.Text = "pinRequire";
+            this.Load += new System.EventHandler(this.pinRequire_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

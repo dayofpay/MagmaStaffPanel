@@ -30,5 +30,10 @@ namespace MagmaStaffPanel
                 MessageBox.Show("Грешен Пин !!!");
             }
         }
+
+        private void pinRequire_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
