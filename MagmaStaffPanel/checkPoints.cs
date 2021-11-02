@@ -29,10 +29,10 @@ namespace MagmaStaffPanel
         public checkPoints()
         {
             InitializeComponent();
-            server = "87.121.82.44";
-            database = "s3_magmacraft";
-            user = "u3_5W42Pp7Wu2";
-            password = "ToCWgAQGAy=7zy4zRdLIbQp.";
+            server = "vashiqt_serv";
+            database = "vashiqt_serv";
+            user = "vashiqt_serv";
+            password = "vashiqt_serv";
             port = "3306";
             sslM = "none";
             connectionString = String.Format("server={0};port={1};user id={2}; password={3}; database={4}; SslMode={5}", server, port, user, password, database, sslM);
